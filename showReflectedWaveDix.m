@@ -1,5 +1,5 @@
 function [x,t]=showReflectedWaveDix(V,spacing,h)
-% [x,t]=showReflectedWave(V,spacing,h)
+% [x,t]=showReflectedWaveDix(V,spacing,h)
 %
 % Plots the arrival times for a reflected wave that first got refracted
 % at a couple of interfaces with layer velocities V(1) V(2) V(3), etc 
