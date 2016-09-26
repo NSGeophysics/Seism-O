@@ -26,6 +26,8 @@ if nargin==2
 	gain=0.9;
 end
 
+ % If it's octave, install missing packages automatically
+if exist('octave_config_info')
 try
 	pkg load signal
 catch
@@ -36,7 +38,7 @@ catch
 	disp('Installed necessary packages; run function again')
 	return
 end
-
+end
 zshift=3.75;%4;
 %fb=sqrt(3);
 res=100;
