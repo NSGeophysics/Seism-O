@@ -17,7 +17,7 @@ https://git-scm.com/downloads
 
 To keep the scripts updated, run, from time to time run 
 
-`git pull origin master'
+`git pull origin master`
 
 on the command line in the folder `Seism-O`.
 
