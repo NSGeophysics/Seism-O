@@ -55,7 +55,7 @@ totlength=round(max(tarriv)*pps);
 
 for i=1:length(x)
 	zerosbefore=zeros(1,round(tarriv(i)*pps));
-	zerosafter=zeros(1,round(totlength-tarriv(i)*pps));
+	zerosafter=zeros(1,totlength-round(tarriv(i)*pps));
 	seis.seismo(:,i)=[zerosbefore psi zerosafter]';
 end
 
