@@ -12,8 +12,8 @@ function [x,t]=showRefractedWave(V1,spacing,h,V2)
 %
 % OUTPUT:
 %
-% x 	The geophone locations
-% t  	the travel times
+% x 	    geophone locations
+% t  	    travel times
 %
 % Last modified by plattner-at-alumni.ethz.ch, 11/3/2015  
 

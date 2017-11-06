@@ -6,17 +6,17 @@ function [x,t]=showRefractDipReverse(V1,spacing,hu,V2,beta)
 %
 % INPUT:
 %
-% V1 		wave velocity upper layer
-% spacing 	spacing between the electrodes
-% hu 		depth to reflected layer underneath updip shot location 
-% 			(shot where the depth is shallower)
-% V2 		wave velocity lower layer
-% beta      dipping angle
+% V1          wave velocity upper layer
+% spacing     spacing between the electrodes
+% hu          depth to reflected layer underneath updip shot location 
+%             (shot where the depth is shallower)
+% V2          wave velocity lower layer
+% beta        dipping angle
 %
 % OUTPUT:
 %
-% x 	The geophone locations
-% t  	the travel times
+% x     The geophone locations
+% t     the travel times
 %
 % Last modified by plattner-at-alumni.ethz.ch, 11/4/2015  
 
